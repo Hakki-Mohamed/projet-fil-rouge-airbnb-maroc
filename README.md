@@ -1,10 +1,10 @@
-Projet Fil Rouge – Analyse Comparative du Marché Airbnb
+## Projet Fil Rouge – Analyse Comparative du Marché Airbnb
 Madrid vs Barcelona
-Objectif du projet
+## Objectif du projet
 
 Ce projet vise à concevoir une solution data complète de bout en bout afin de comparer le marché Airbnb entre Madrid et Barcelona.
 
-L’analyse porte sur :
+## L’analyse porte sur :
 
 Les prix moyens et médians
 
@@ -16,14 +16,14 @@ Les différences statistiques entre les deux marchés
 
 L’objectif final est d’aider à la prise de décision pour un investisseur ou un analyste marché.
 
-Problématique métier
+## Problématique métier
 
 Existe-t-il une différence significative entre les prix Airbnb à Madrid et Barcelona ?
 
 Quelle ville présente le positionnement le plus premium ?
 Quelle ville offre le plus d’opportunités accessibles ?
 
-Sources de données
+## Sources de données
 
 Données issues de la plateforme Inside Airbnb :
 
@@ -35,7 +35,7 @@ reviews.csv
 
 neighbourhoods.csv
 
-Villes étudiées :
+## Villes étudiées :
 
 Madrid
 
@@ -43,7 +43,7 @@ Barcelona
 
 Date de téléchargement : 02/11/2026
 
-Stack technique
+## Stack technique
 
 Python
 
@@ -61,7 +61,7 @@ Jupyter Notebook
 
 Git / GitHub
 
-Architecture Data
+## Architecture Data
 data/
  ├── raw/            → données brutes
  ├── processed/      → données nettoyées + base SQLite
@@ -74,7 +74,7 @@ docs/
  ├── cahier_des_charges_data.md
  ├── sources.md
 
-Pipeline Data
+## Pipeline Data
 
 1️⃣ Fusion des listings Madrid & Barcelona
 2️⃣ Nettoyage des valeurs manquantes
@@ -84,7 +84,7 @@ Pipeline Data
 6️⃣ Création base SQLite
 7️⃣ Calcul des KPI en SQL
 
-KPI calculés
+## KPI calculés
 
 Prix moyen par ville
 
@@ -98,7 +98,7 @@ Corrélation simple prix vs disponibilité
 
 Test statistique de comparaison des moyennes
 
-Validation statistique
+## Validation statistique
 
 Un T-test a été réalisé afin de comparer les prix moyens.
 
@@ -110,7 +110,7 @@ Différence statistiquement significative
 
 Barcelona présente des prix moyens plus élevés que Madrid
 
-Conclusion métier
+## Conclusion métier
 
 Barcelona adopte un positionnement plus premium.
 Madrid offre davantage d’opportunités pour un investissement à budget modéré.
