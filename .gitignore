@@ -208,5 +208,6 @@ __marimo__/
 
 # Ignore datasets
 data/raw/
-*.csv
+data/processed/*.csv
+data/processed/*.db
 *.gz
